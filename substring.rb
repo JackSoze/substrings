@@ -7,10 +7,7 @@ dictionary.each do |word|
     substrings.push(word)
   end
 end
-substrings.reduce(Hash.new(0)) do |result, string|
-  result[string] +=1
-  result
-end
+substrings.tally
 end
 
 dictionary = ["below","down","go","going","GOING","lo","ing","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
