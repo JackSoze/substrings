@@ -1,2 +1,2 @@
 # substrings
-solcing classic intro into programming puzzles with ruby
+solving classic intro into programming puzzles with ruby
